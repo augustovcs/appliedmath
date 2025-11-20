@@ -166,8 +166,8 @@ def diffs_second():
     print(m)
 
 #maximo e minimo
-#derivada positiva -> ponto minimo
-#derivada negativa -> ponto maximo
+#ponto critico positivo -> ponto minimo
+#ponto critico negativo -> ponto maximo
 def diffs_max():
     x, y = symbols('x y')
     y = -4*x**2+4000*x-200000
