@@ -279,3 +279,33 @@ def linear_sys():
     x = np.linalg.solve(A, B)
     print(x)
 
+def trigonometrics():
+    arc = np.deg2rad(57) #graus para rad
+    arc_sin = np.sin(arc) #seno desse valor em rad ou degree
+    print(arc_sin)
+    print('\n')
+
+    ang = np.arccos(0.7)
+    ang_degree = np.rad2deg(ang)
+    print(ang_degree)
+
+def complex_numbers():
+
+    # z = a + b*i 
+    # /parte A significa real 
+    # /parte B significa imaginaria
+
+    z = complex(3, 5) #gera o numero complexo
+    z_abs = abs(z) # gera o modulo
+
+
+    print(z)
+    print(z_abs)
+
+def linear_complex():
+    A = np.array([[complex(2,1), complex(5,-1)],
+                   [complex(5,-1), complex(7,4)]])
+    B = np.array([[complex(3,8)], [complex(2,5)]])
+
+    AB = np.linalg.solve(A, B)
+    print(AB)

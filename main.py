@@ -12,7 +12,12 @@ def main():
     #integral_def()
     #areas_math()
     #vectors_matrizes()
-    linear_sys()
+    #linear_sys()
+    #trigonometrics()
+    #complex_numbers()
+    linear_complex()
+
+
 if __name__ == "__main__":
     main()
 
