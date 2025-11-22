@@ -258,3 +258,8 @@ def areas_math():
     plt.fill_between(x, f, where=[(x>1) and (x<3) for x in x],color='magenta')
     print('Area: ', A)
     plt.show()
+
+def vectors():
+    True
+
+#def matrizes():
