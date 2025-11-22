@@ -271,4 +271,11 @@ def vectors_matrizes():
     sum_uv = np.inner(u,v)
     cart_uv = np.cross(u,v)
 
-    
+
+def linear_sys():
+    A = np.array([[4, 2, -1], [3,3,2], [0,5,2]])
+    B = np.array([[7],[20], [-1]])
+
+    x = np.linalg.solve(A, B)
+    print(x)
+

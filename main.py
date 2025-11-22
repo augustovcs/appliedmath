@@ -11,7 +11,8 @@ def main():
     #integral_indef()
     #integral_def()
     #areas_math()
-    vectors_matrizes()
+    #vectors_matrizes()
+    linear_sys()
 if __name__ == "__main__":
     main()
 
