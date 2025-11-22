@@ -8,10 +8,10 @@ def main():
     #plt_graph5()
     #testing_exam()
     #optimization_3d_2()
-    integral_indef()
-    integral_def()
-    areas_math()
-
+    #integral_indef()
+    #integral_def()
+    #areas_math()
+    vectors_matrizes()
 if __name__ == "__main__":
     main()
 

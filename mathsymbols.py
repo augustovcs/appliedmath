@@ -259,7 +259,16 @@ def areas_math():
     print('Area: ', A)
     plt.show()
 
-def vectors():
-    True
+def vectors_matrizes():
+    A = np.array([[5.90, 7.10], [2.38, 2.52], [2.90, 2.00]])
+    B = 4.10*A
 
-#def matrizes():
+    print(B)
+
+    u = np.array([[3,-5,2]])
+    v = np.array([[4,6,3]])
+
+    sum_uv = np.inner(u,v)
+    cart_uv = np.cross(u,v)
+
+    
